@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 :root {
-  --primary-color: #7c59b0;
-  --border-radius: 5px;
+  --primary-color: #5d9ad3;
+  --border-radius: 20px;
 }
 
 html {
@@ -11,14 +11,15 @@ html {
 
 body {
   background: var(--primary-color);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%23b8b8b8' fill-opacity='0.4' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
-  font-family: Karla, sans-serif;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%23dcf2f4' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  font-family: 'Shadows Into Light', sans-serif;
+  letter-spacing: 4px;
 }
 
 h1 {
   color: white;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(28, 168, 63, 0.5);
   border-radius: var(--border-radius);
   cursor: pointer;
   text-align: center;
@@ -29,7 +30,7 @@ h1 {
 }
 
 h1:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(28, 168, 63, 0.8);
 }
 
 /* Bookmarks */
