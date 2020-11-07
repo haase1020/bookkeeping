@@ -78,8 +78,8 @@ function fetchBookmarks() {
     // Create bookmarks array in localStorage
     bookmarks = [
       {
-        name: 'Mandi Haase',
-        url: 'https://www.mandihaase.com/',
+        name: 'LinkedIn',
+        url: 'https://www.linkedin.com/',
       },
     ];
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
