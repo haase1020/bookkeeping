@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
 :root {
-  --primary-color: #6d94c0;
+  --primary-color: #659dbd;
   --border-radius: 20px;
 }
 
@@ -18,7 +18,7 @@ body {
 h1 {
   color: white;
   padding: 20px;
-  background: rgba(28, 168, 63, 0.5);
+  background: rgba(141, 135, 65, 0.8);
   border-radius: var(--border-radius);
   cursor: pointer;
   text-align: center;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h1:hover {
-  background: rgba(28, 168, 63, 0.8);
+  background: rgba(141, 135, 65, 1);
 }
 
 /* Bookmarks */
@@ -40,7 +40,7 @@ h1:hover {
 }
 
 .item {
-  background: rgba(28, 168, 63, 0.5);
+  background: rgba(141, 135, 65, 0.8);
   color: white;
   border-radius: var(--border-radius);
   padding: 20px;
@@ -48,7 +48,7 @@ h1:hover {
 }
 
 .item:hover {
-  background: rgba(28, 168, 63, 0.8);
+  background: rgba(141, 135, 65, 1);
 }
 
 a {
